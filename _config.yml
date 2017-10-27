@@ -1,0 +1,16 @@
+# Site settings
+title: Rob Powell
+description: Designer // Technologist // Human
+avatar: travitar.jpg
+blurb: this is where I write about myself
+bg-img: artisttheme.jpg
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+port: 3000
+
+sass:
+  sass_dir: assets/css
+  style: :nested
