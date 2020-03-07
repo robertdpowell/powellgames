@@ -63,7 +63,7 @@
     height: 20px;
     width: 20px;
     border-radius: 25%;
-    transition: 1s ease;
+    transition: 0.2s ease;
     border-style: solid;
     border-width: 0.5px;
     border-color: grey; }
@@ -75,7 +75,7 @@
     height: 60px;
     width: 60px;
     border-radius: 25%;
-    transition: 1s ease;
+    transition: 0.2s ease;
     border-style: solid;
     border-width: 0.5px;
     border-color: grey;
@@ -88,7 +88,7 @@
     height: 60px;
     width: 60px;
     border-radius: 25%;
-    transition: 1s ease;
+    transition: 0.2s ease;
     border-style: solid;
     border-width: 0.5px;
     border-color: grey;
@@ -278,127 +278,127 @@ body {
     .palette .palette-belt #cerulean {
       background-color: #98B4D4; }
     .palette .palette-belt #letter-a {
-      background-image: url(/assets/img/a.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/a.png);
       background-size: cover; }
     .palette .palette-belt #letter-b {
-      background-image: url(/assets/img/b.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/b.png);
       background-size: cover; }
     .palette .palette-belt #letter-c {
-      background-image: url(/assets/img/c.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/c.png);
       background-size: cover; }
     .palette .palette-belt #letter-d {
-      background-image: url(/assets/img/d.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/d.png);
       background-size: cover; }
     .palette .palette-belt #letter-e {
-      background-image: url(/assets/img/e.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/e.png);
       background-size: cover; }
     .palette .palette-belt #letter-f {
-      background-image: url(/assets/img/f.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/f.png);
       background-size: cover; }
     .palette .palette-belt #letter-g {
-      background-image: url(/assets/img/g.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/g.png);
       background-size: cover; }
     .palette .palette-belt #letter-h {
-      background-image: url(/assets/img/h.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/h.png);
       background-size: cover; }
     .palette .palette-belt #letter-i {
-      background-image: url(/assets/img/i.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/i.png);
       background-size: cover; }
     .palette .palette-belt #letter-j {
-      background-image: url(/assets/img/j.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/j.png);
       background-size: cover; }
     .palette .palette-belt #letter-k {
-      background-image: url(/assets/img/k.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/k.png);
       background-size: cover; }
     .palette .palette-belt #letter-l {
-      background-image: url(/assets/img/l.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/l.png);
       background-size: cover; }
     .palette .palette-belt #letter-m {
-      background-image: url(/assets/img/m.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/m.png);
       background-size: cover; }
     .palette .palette-belt #letter-n {
-      background-image: url(/assets/img/n.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/n.png);
       background-size: cover; }
     .palette .palette-belt #letter-o {
-      background-image: url(/assets/img/o.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/o.png);
       background-size: cover; }
     .palette .palette-belt #letter-p {
-      background-image: url(/assets/img/p.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/p.png);
       background-size: cover; }
     .palette .palette-belt #letter-q {
-      background-image: url(/assets/img/q.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/q.png);
       background-size: cover; }
     .palette .palette-belt #letter-r {
-      background-image: url(/assets/img/r.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/r.png);
       background-size: cover; }
     .palette .palette-belt #letter-s {
-      background-image: url(/assets/img/s.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/s.png);
       background-size: cover; }
     .palette .palette-belt #letter-t {
-      background-image: url(/assets/img/t.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/t.png);
       background-size: cover; }
     .palette .palette-belt #letter-u {
-      background-image: url(/assets/img/u.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/u.png);
       background-size: cover; }
     .palette .palette-belt #letter-v {
-      background-image: url(/assets/img/v.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/v.png);
       background-size: cover; }
     .palette .palette-belt #letter-w {
-      background-image: url(/assets/img/w.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/w.png);
       background-size: cover; }
     .palette .palette-belt #letter-x {
-      background-image: url(/assets/img/x.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/x.png);
       background-size: cover; }
     .palette .palette-belt #letter-y {
-      background-image: url(/assets/img/y.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/y.png);
       background-size: cover; }
     .palette .palette-belt #letter-z {
-      background-image: url(/assets/img/z.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/z.png);
       background-size: cover; }
     .palette .palette-belt #number-1 {
-      background-image: url(/assets/img/1.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/1.png);
       background-size: cover; }
     .palette .palette-belt #number-2 {
-      background-image: url(/assets/img/2.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/2.png);
       background-size: cover; }
     .palette .palette-belt #number-3 {
-      background-image: url(/assets/img/3.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/3.png);
       background-size: cover; }
     .palette .palette-belt #number-4 {
-      background-image: url(/assets/img/4.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/4.png);
       background-size: cover; }
     .palette .palette-belt #number-5 {
-      background-image: url(/assets/img/5.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/5.png);
       background-size: cover; }
     .palette .palette-belt #number-6 {
-      background-image: url(/assets/img/6.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/6.png);
       background-size: cover; }
     .palette .palette-belt #number-7 {
-      background-image: url(/assets/img/7.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/7.png);
       background-size: cover; }
     .palette .palette-belt #number-8 {
-      background-image: url(/assets/img/8.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/8.png);
       background-size: cover; }
     .palette .palette-belt #number-9 {
-      background-image: url(/assets/img/9.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/9.png);
       background-size: cover; }
     .palette .palette-belt #number-0 {
-      background-image: url(/assets/img/0.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/0.png);
       background-size: cover; }
     .palette .palette-belt #number-equals {
-      background-image: url(/assets/img/=.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/=.png);
       background-size: cover; }
     .palette .palette-belt #number-plus {
-      background-image: url(/assets/img/+.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/+.png);
       background-size: cover; }
     .palette .palette-belt #number-minus {
-      background-image: url(/assets/img/-.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/-.png);
       background-size: cover; }
     .palette .palette-belt #number-times {
-      background-image: url(/assets/img/*.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/*.png);
       background-size: cover; }
     .palette .palette-belt #blank {
-      background-image: url(/assets/img/star.png);
+      background-image: url(https://robertdpowell.github.io/powellgames/assets/img/star.png);
       background-size: cover; }
 
 .spelling-text {
