@@ -5,7 +5,7 @@ title: Powell Games
 
 
 menu:
-- {name: Paint Big, url: 'http://localhost:3000/paintbig.html'}
+- {name: Paint Big, url: 'https://robertdpowell.github.io/powellgames/paintbig.html'}
 - {name: Paint Small, url: 'http://localhost:3000/paintsmall.html'}
 - {name: Circles, url: 'http://localhost:3000/hovercircles.html'}
 - {name: Spelling, url: 'http://localhost:3000/spelling.html'}
