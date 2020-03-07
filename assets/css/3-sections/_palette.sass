@@ -1,7 +1,7 @@
 .palette
   margin-left: 40px
   padding-bottom: 50px
-  
+
   nav
     position: absolute
     width: 200px
@@ -11,12 +11,15 @@
     right: 40px
     bottom: 40px
     z-order: 3
-  
+
   .palette-belt
     display: grid
-    grid-template-columns: 40px 40px 40px 
-    grid-gap: 10px
+    grid-template-columns: 40px 40px 40px
+    grid-gap: 20px
     color: #444
+    //border-style: solid
+    //border-width: 0.5px
+    //border-color: grey
 
     .palette-colour
       border-radius: 5px
@@ -26,7 +29,10 @@
       transform: perspective(1px) translateZ(0)
       box-shadow: 0 0 1px transparent
       position: relative
-      
+    //border-style: solid
+    //border-width: 0.5px
+    //border-color: grey
+
       &:before
         pointer-events: none
         content: ''
@@ -41,37 +47,244 @@
         transition-duration: 0.3s
         -webkit-transition-property: top, right, bottom, left
         transition-property: top, right, bottom, left
-      
+
       &:hover:before
         top: -8px
         right: -8px
         bottom: -8px
         left: -8px
         opacity: 1
-      
+
       &:focus:before
         top: -8px
         right: -8px
         bottom: -8px
         left: -8px
         opacity: 1
-      
+
       &:active:before
         top: -8px
         right: -8px
         bottom: -8px
         left: -8px
         opacity: 1
-      
+
+    .palette-text
+      text-color: white
+
     #blue
-      background-color: #3a20e5
+      background-color: #00539C
     #red
-      background-color: #e85353
+      background-color: #BD3D3A
     #yellow
-      background-color: #f0f461
+      background-color: #FFD662
     #green
-      background-color: #99ef99
+      background-color: #006E6D
     #orange
-      background-color: #efc899
+      background-color: #E47A2E
     #pink
-      background-color: #edb6b4
+      background-color: #E8B5CE
+    #purple
+      background-color: #6B5B95
+    #white
+      background-color: #ffffff
+    #racing
+      background-color: #006E51
+    #peach
+      background-color: #F7786B
+    #chili
+      background-color: #9B2335
+    #cerulean
+      background-color: #98B4D4
+
+    #letter-a
+      background-image: url(/assets/img/a.png)
+      background-size: cover
+
+    #letter-b
+      background-image: url(/assets/img/b.png)
+      background-size: cover
+
+    #letter-c
+      background-image: url(/assets/img/c.png)
+      background-size: cover
+
+    #letter-d
+      background-image: url(/assets/img/d.png)
+      background-size: cover
+
+    #letter-e
+      background-image: url(/assets/img/e.png)
+      background-size: cover
+
+    #letter-f
+      background-image: url(/assets/img/f.png)
+      background-size: cover
+
+    #letter-g
+      background-image: url(/assets/img/g.png)
+      background-size: cover
+
+    #letter-h
+      background-image: url(/assets/img/h.png)
+      background-size: cover
+
+    #letter-i
+      background-image: url(/assets/img/i.png)
+      background-size: cover
+
+    #letter-j
+      background-image: url(/assets/img/j.png)
+      background-size: cover
+
+    #letter-k
+      background-image: url(/assets/img/k.png)
+      background-size: cover
+
+    #letter-l
+      background-image: url(/assets/img/l.png)
+      background-size: cover
+
+    #letter-m
+      background-image: url(/assets/img/m.png)
+      background-size: cover
+
+    #letter-n
+      background-image: url(/assets/img/n.png)
+      background-size: cover
+
+    #letter-o
+      background-image: url(/assets/img/o.png)
+      background-size: cover
+
+    #letter-p
+      background-image: url(/assets/img/p.png)
+      background-size: cover
+
+    #letter-q
+      background-image: url(/assets/img/q.png)
+      background-size: cover
+
+    #letter-r
+      background-image: url(/assets/img/r.png)
+      background-size: cover
+
+    #letter-s
+      background-image: url(/assets/img/s.png)
+      background-size: cover
+
+    #letter-t
+      background-image: url(/assets/img/t.png)
+      background-size: cover
+
+    #letter-u
+      background-image: url(/assets/img/u.png)
+      background-size: cover
+
+    #letter-v
+      background-image: url(/assets/img/v.png)
+      background-size: cover
+
+    #letter-w
+      background-image: url(/assets/img/w.png)
+      background-size: cover
+
+    #letter-x
+      background-image: url(/assets/img/x.png)
+      background-size: cover
+
+    #letter-y
+      background-image: url(/assets/img/y.png)
+      background-size: cover
+
+    #letter-z
+      background-image: url(/assets/img/z.png)
+      background-size: cover
+
+    #number-1
+      background-image: url(/assets/img/1.png)
+      background-size: cover
+
+
+    #number-2
+      background-image: url(/assets/img/2.png)
+      background-size: cover
+
+    #number-3
+      background-image: url(/assets/img/3.png)
+      background-size: cover
+
+    #number-4
+      background-image: url(/assets/img/4.png)
+      background-size: cover
+
+    #number-5
+      background-image: url(/assets/img/5.png)
+      background-size: cover
+
+    #number-6
+      background-image: url(/assets/img/6.png)
+      background-size: cover
+
+    #number-7
+      background-image: url(/assets/img/7.png)
+      background-size: cover
+
+    #number-8
+      background-image: url(/assets/img/8.png)
+      background-size: cover
+
+    #number-9
+      background-image: url(/assets/img/9.png)
+      background-size: cover
+
+    #number-0
+      background-image: url(/assets/img/0.png)
+      background-size: cover
+
+    #number-equals
+      background-image: url(/assets/img/=.png)
+      background-size: cover
+
+    #number-plus
+      background-image: url(/assets/img/+.png)
+      background-size: cover
+
+    #number-minus
+      background-image: url(/assets/img/-.png)
+      background-size: cover
+
+    #number-times
+      background-image: url(/assets/img/*.png)
+      background-size: cover
+
+
+
+    #blank
+      background-image: url(/assets/img/star.png)
+      background-size: cover
+
+
+
+
+.spelling-text
+  text-align: center
+  //text-transform: uppercase
+  color: pink
+  font-size: 15px
+  font-weight: 700px
+  //letter-spacing: 0.05em
+  //margin-bottom: 20px
+  //clear: both
+  //padding-top: 100px
+
+.grid-text
+  text-align: center
+  //text-transform: uppercase
+  color: pink
+  font-size: 15px
+  font-weight: 700px
+  //letter-spacing: 0.05em
+  //margin-bottom: 20px
+  //clear: both
+  //padding-top: 100px

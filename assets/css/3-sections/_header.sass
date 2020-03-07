@@ -9,18 +9,18 @@ header
   margin-bottom: 50px
   height: 100vh
   display: flex
-  flex-direction: column 
+  flex-direction: column
   justify-content: center
   align-items: center
 
-  nav
+  .nav
     float: right
     padding: 30px 30px 0 0
 
-    a
+    .link
       display: inline-block
       margin-left: 20px
-      
+
       text-transform: uppercase
       text-decoration: none
       color: white
@@ -29,7 +29,7 @@ header
       transform: perspective(1px) translateZ(0)
       box-shadow: 0 0 1px transparent
       position: relative
-      
+
       &:before
         pointer-events: none
         content: ''
@@ -44,30 +44,30 @@ header
         transition-duration: 0.3s
         -webkit-transition-property: top, right, bottom, left
         transition-property: top, right, bottom, left
-      
+
       &:hover:before
         top: -8px
         right: -8px
         bottom: -8px
         left: -8px
         opacity: 1
-      
+
       &:focus:before
         top: -8px
         right: -8px
         bottom: -8px
         left: -8px
         opacity: 1
-      
+
       &:active:before
         top: -8px
         right: -8px
         bottom: -8px
         left: -8px
-        opacity: 1  
+        opacity: 1
 
 
-  h1
+  .title
     text-align: center
     text-transform: uppercase
     color: white
@@ -76,14 +76,14 @@ header
     letter-spacing: 0.05em
     margin-bottom: 20px
     clear: both
-    padding-top: 100px			
+    padding-top: 100px
 
-    span
+    .span
       display: inline-block
       padding: 0.2em 0.5em
       border: white solid 10px
-      
-  h4
+
+  .description
     text-align: center
     @extend %small-bold
     letter-spacing: 0.05em
@@ -94,14 +94,14 @@ header
     background:
       position: 50% 20px, 50% 50%
 
-    h1
+    .title
       padding-top: 0px
-      
+
 
 p
   max-width: 600px
   margin: 0 auto 20px
-  
+
 @media (max-width: 640px)
   p
-    margin: 20px 23px 10px 20px 
+    margin: 20px 23px 10px 20px
