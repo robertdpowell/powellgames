@@ -245,8 +245,12 @@ body {
     color: #444; }
     @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
       .palette .palette-belt {
-        grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
-        grid-gap: 5px; } }
+        grid-template-columns: 40px 40px 40px 40px 40px 40px 40px;
+        grid-gap: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        position: relative; } }
     .palette .palette-belt .palette-colour {
       border-radius: 5px;
       cursor: copy;
