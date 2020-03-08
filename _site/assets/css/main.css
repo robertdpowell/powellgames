@@ -60,8 +60,7 @@
       position: relative;
       left: 20px;
       right: 20px;
-      top: 360px;
-      margin-left: 20px; } }
+      top: 360px; } }
   .canvas .canvas-space {
     position: relative;
     cursor: crosshair;
@@ -256,20 +255,17 @@ body {
       .palette .palette-belt {
         position: relative;
         grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px;
-        grid-gap: 5%;
+        grid-gap: 4%;
         top: 20px;
         bottom: 20px; } }
     .palette .palette-belt .palette-colour {
       border-radius: 5px;
       cursor: copy;
-      padding: 20px;
+      padding: 10px;
       -webkit-transform: perspective(1px) translateZ(0);
       transform: perspective(1px) translateZ(0);
       box-shadow: 0 0 1px transparent;
-      position: relative;
-      border-style: solid;
-      border-width: 0.5px;
-      border-color: grey; }
+      position: relative; }
       .palette .palette-belt .palette-colour:before {
         pointer-events: none;
         content: "";
