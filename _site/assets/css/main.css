@@ -256,7 +256,7 @@ body {
       .palette .palette-belt {
         position: relative;
         grid-template-columns: 50px 50px 50px 50px 50px 50px;
-        grid-gap: 10px;
+        grid-gap: 20px;
         top: 20px;
         bottom: 20px; } }
     .palette .palette-belt .palette-colour {
