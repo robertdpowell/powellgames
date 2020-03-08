@@ -218,7 +218,8 @@ body {
     @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
       .options .btn {
         font-size: 10px;
-        padding: 5px 5px 5px 5px; } }
+        padding: 5px 5px 5px 5px;
+        margin-top: 5px; } }
     .options .btn:hover {
       background: #3cb0fd;
       -webkit-transition-duration: 0.3s;
