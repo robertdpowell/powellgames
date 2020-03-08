@@ -255,13 +255,13 @@ body {
       .palette .palette-belt {
         position: relative;
         grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px;
-        grid-gap: 4%;
+        grid-gap: 5%;
         top: 20px;
         bottom: 20px; } }
     .palette .palette-belt .palette-colour {
       border-radius: 5px;
       cursor: copy;
-      padding: 10px;
+      padding: 20px;
       -webkit-transform: perspective(1px) translateZ(0);
       transform: perspective(1px) translateZ(0);
       box-shadow: 0 0 1px transparent;
