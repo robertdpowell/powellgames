@@ -57,7 +57,8 @@
   padding-bottom: 200px; }
   @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
     .canvas {
-      margin-left: 0px; } }
+      margin-left: 0px;
+      position: relative; } }
   .canvas .canvas-space {
     position: relative;
     cursor: crosshair;
@@ -166,6 +167,9 @@ header {
     margin-bottom: 20px;
     clear: both;
     padding-top: 100px; }
+    @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+      header .title {
+        font-size: 36px; } }
     header .title .span {
       display: inline-block;
       padding: 0.2em 0.5em;
@@ -175,11 +179,6 @@ header {
     letter-spacing: 0.05em;
     color: white; }
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
-  header {
-    background-position: 50% 20px, 50% 50%; }
-    header .title {
-      font-size: 32px; } }
 body {
   height: 200%;
   background-color: white; }
@@ -227,7 +226,7 @@ body {
   padding-bottom: 50px; }
   .palette nav {
     position: absolute;
-    width: 414px;
+    width: 200px;
     height: 60px;
     top: 30px;
     left: 20px;
@@ -242,6 +241,10 @@ body {
     grid-template-columns: 40px 40px 40px;
     grid-gap: 20px;
     color: #444; }
+    @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+      .palette .palette-belt {
+        grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+        grid-gap: 5px; } }
     .palette .palette-belt .palette-colour {
       border-radius: 5px;
       cursor: copy;
