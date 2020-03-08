@@ -60,7 +60,8 @@
       position: relative;
       left: 20px;
       right: 20px;
-      top: 260px; } }
+      top: 360px;
+      margin-left: 20px; } }
   .canvas .canvas-space {
     position: relative;
     cursor: crosshair;
