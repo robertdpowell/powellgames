@@ -255,8 +255,8 @@ body {
     @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
       .palette .palette-belt {
         position: relative;
-        grid-template-columns: 50px 50px 50px 50px 50px 50px;
-        grid-gap: 20px;
+        grid-template-columns: 40px 40px 40px 40px 40px 40px;
+        grid-gap: 0;
         top: 20px;
         bottom: 20px; } }
     .palette .palette-belt .palette-colour {
