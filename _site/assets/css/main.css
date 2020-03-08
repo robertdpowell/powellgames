@@ -175,7 +175,7 @@ header {
 @media (max-width: 1080px) {
   header {
     background-position: 50% 20px, 50% 50%; }
-    header title {
+    header .title {
       text-align: center;
       text-transform: uppercase;
       color: white;
