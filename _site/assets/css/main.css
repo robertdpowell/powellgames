@@ -53,7 +53,7 @@
     height: 300px;
     background: pink; } }
 .canvas {
-  margin-left: 200px;
+  margin-left: 0px;
   padding-bottom: 200px; }
   @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
     .canvas {
@@ -227,7 +227,7 @@ body {
   padding-bottom: 50px; }
   .palette nav {
     position: absolute;
-    width: 200px;
+    width: 414px;
     height: 60px;
     top: 30px;
     left: 20px;
