@@ -55,6 +55,9 @@
 .canvas {
   margin-left: 200px;
   padding-bottom: 200px; }
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+    .canvas {
+      margin-left: 0px; } }
   .canvas .canvas-space {
     position: relative;
     cursor: crosshair;
@@ -231,6 +234,9 @@ body {
     right: 40px;
     bottom: 40px;
     z-order: 3; }
+    @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+      .palette nav {
+        width: 414px; } }
   .palette .palette-belt {
     display: grid;
     grid-template-columns: 40px 40px 40px;
