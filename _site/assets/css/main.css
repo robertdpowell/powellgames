@@ -172,7 +172,7 @@ header {
     letter-spacing: 0.05em;
     color: white; }
 
-@media (max-width: 414px) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   header {
     background-position: 50% 20px, 50% 50%; }
     header .title {
