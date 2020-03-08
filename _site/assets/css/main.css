@@ -172,7 +172,7 @@ header {
     letter-spacing: 0.05em;
     color: white; }
 
-@media (max-width: 1080px) {
+@media (max-width: 414px) {
   header {
     background-position: 50% 20px, 50% 50%; }
     header .title {
